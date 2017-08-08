@@ -1,0 +1,8 @@
+#foodsself{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div{
+  max-width: 50%;
+}
