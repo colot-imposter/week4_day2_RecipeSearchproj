@@ -1,82 +1,87 @@
-@media only screen and (max-width : 600px) {
-
-
-#wrapper{
-
-  display: flex;
-  justify-content: center;
-  margin: 0% 15%;
-
-}
-#foodsself{
-  display: flex;
-  flex-wrap: wrap;
+html{
+  background-color: #ff6d4c;
+  font-family: cursive;
 }
 
-img{
-width: 55%;
-margin:7px;}
-/*dd{
-  max-width: 50%;
-}*/
-dl{
-  text-align: center;
-}
+div div div {
+  max-width:60%%;}
 
-.ingredients{
-  display: flex;
-  flex-wrap: wrap;
-  margin: 5px 0px
-}
-.foodTitles{
-  font-weight: bold;
-  font-size: 1.6em;
-    text-decoration: underline;
-    margin:0;
-}
-dt{
-  text-decoration: underline;
-  font-weight: 200;
-}
-}
-@media only screen and (max-width : 800px) {
+  .ingredients{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px 0px;
+    text-transform: capitalize;
+    max-width: 250px
+  }
+  #foodsself{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #wrapper{
+    display: flex;
+    justify-content: center;
+    margin: 0% 10%;
+  }
+    #foodsself{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    img{
+    width: 55%;
+    margin:7px;
+  }
+  dl{
+    text-align: center;
+  }
+  .foodTitles{
+    font-weight: bold;
+    font-size: 1.6em;
+      text-decoration: underline;
+      margin:0;
+    }
 
+    dt{
+      text-decoration: underline;
+      font-weight: 200;
+@media screen and (min-width: 750px) {
 
-#wrapper{
-
-  display: flex;
-  justify-content: center;
-  margin: 0% 15%;
-
+div div div {
+  max-width:45%;
 }
-#foodsself{
-  display: flex;
-  flex-wrap: wrap;
 }
-
-img{
-width: 55%;
-margin:7px;}
-/*dd{
-  max-width: 50%;
-}*/
-dl{
-  text-align: center;
-}
+@media screen and (min-width: 550px) {
 
 .ingredients{
+width: 250px;
+}
+img{
+width: 55%;
+margin:8px;
+}
+div{
+      margin: 2% 3%;
+}
+
+dl{
+  margin:2%;
+}
+
+div div div {
+
+  max-width:30%;
+}
+
+
+
+#foodself{
   display: flex;
-  flex-wrap: wrap;
-  margin: 5px 0px
+  justify-content: center;
+  margin: 0% 25%;
 }
-.foodTitles{
-  font-weight: bold;
-  font-size: 1.6em;
-    text-decoration: underline;
-    margin:0;
 }
-dt{
-  text-decoration: underline;
-  font-weight: 200;
-}
+@media screen and (min-width: 750px) {
+  div div div {
+    max-width:28%;
+  }
+
 }

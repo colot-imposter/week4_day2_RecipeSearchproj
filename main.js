@@ -12,7 +12,7 @@ let baraSearch = searchtxBox.value
 
   console.log(baraSearch);
 
-    let baraURL = "http://recipepuppyproxy.herokuapp.com/api/?q=steak" + baraSearch;
+    let baraURL = "http://recipepuppyproxy.herokuapp.com/api/?q=" + baraSearch;
     console.log(baraURL);
     fetch(baraURL)
         .then(
@@ -37,7 +37,7 @@ let baraSearch = searchtxBox.value
 
                         let details = `
   <div class="${i}"><dl><dt></dt><dd class="foodTitles">${specdata.title}</dd>
-  <img src="${specdata.thumbnail}" href="${specdata.href}""/>
+  <a href="${specdata.href}"><img src="${specdata.thumbnail}"></a>
   <dt>Ingredients</dt><dd class="ingredients">${specdata.ingredients}</dd></dl></div>
   `
 
