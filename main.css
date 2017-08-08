@@ -1,8 +1,82 @@
+@media only screen and (max-width : 600px) {
+
+
+#wrapper{
+
+  display: flex;
+  justify-content: center;
+  margin: 0% 15%;
+
+}
 #foodsself{
   display: flex;
   flex-wrap: wrap;
 }
 
-div{
+img{
+width: 55%;
+margin:7px;}
+/*dd{
   max-width: 50%;
+}*/
+dl{
+  text-align: center;
+}
+
+.ingredients{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px 0px
+}
+.foodTitles{
+  font-weight: bold;
+  font-size: 1.6em;
+    text-decoration: underline;
+    margin:0;
+}
+dt{
+  text-decoration: underline;
+  font-weight: 200;
+}
+}
+@media only screen and (max-width : 800px) {
+
+
+#wrapper{
+
+  display: flex;
+  justify-content: center;
+  margin: 0% 15%;
+
+}
+#foodsself{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img{
+width: 55%;
+margin:7px;}
+/*dd{
+  max-width: 50%;
+}*/
+dl{
+  text-align: center;
+}
+
+.ingredients{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px 0px
+}
+.foodTitles{
+  font-weight: bold;
+  font-size: 1.6em;
+    text-decoration: underline;
+    margin:0;
+}
+dt{
+  text-decoration: underline;
+  font-weight: 200;
+}
 }
